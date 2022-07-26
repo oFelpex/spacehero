@@ -249,6 +249,10 @@ function instru() {
     noFill();
     stroke(255);
     rect(290, 402, 125, 55, 20, 15, 10, 5);
+    fill(200, 200, 10);
+    noStroke();
+    textSize(15);
+    text("   Programador: Felpex\nProfessora: Idalmis Milian", 450, 425);
     image(mira, mouseX-41, mouseY-30, 100, 100);
     if(mouseX > 290 && mouseX < 415 && mouseY > 402 && mouseY < 457){
       fill(100);
